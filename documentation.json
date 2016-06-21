@@ -1,0 +1,10 @@
+{
+	"mHeading":"Documentation",
+	"widgets":[
+		{"class":"yellow-block", "title":"Getting Started", "links":"2 Guides", "image":"images/getting-started.png"},
+		{"class":"orange-block", "title":"Indexing", "links":"2 Guides", "image":"images/indexing.png"},
+		{"class":"search-color", "title":"Search", "links":"7 Guides", "image":"images/search-cedcpng.png"},
+		{"class":"platform-color", "title":"Platforms", "links":"10 Guides", "image":"images/relevancepng.png"},
+	],
+	"sHeading":"Api CLients & Tools"
+}
