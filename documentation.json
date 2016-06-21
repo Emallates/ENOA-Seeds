@@ -5,5 +5,80 @@
 		{"class":"orange-block", "title":"Indexing", "links":"2 Guides", "image":"images/indexing.png"},
 		{"class":"search-color", "title":"Search", "links":"7 Guides", "image":"images/search-cedcpng.png"},
 		{"class":"platform-color", "title":"Platforms", "links":"10 Guides", "image":"images/relevancepng.png"}
+	],
+	"clients":{
+		"heading":"Api CLients & Tools",
+		"list":[
+			{
+				"image":"images/illus-mobile.svg", "title":"Mobile", "class":"mobile",
+				"tools":[
+					{"title":"Android", "image":"images/android.svg", "alt":"android", "class":"android-color"},
+					{"title":"Objective-C", "image":"images/objc.svg", "alt":"objective c", "class":"objective-color"},
+					{"title":"Swift", "image":"images/swift.svg", "alt":"swift", "class":"swift-color"},
+					{"title":"Windows", "image":"images/windows.svg", "alt":"Windows", "class":"windows-color"}
+				]
+			},
+			{
+				"image":"images/illus-backend.svg", "title":"Back End", "class":"backend",
+				"tools":[
+					{"title":"C#", "image":"images/csharp.svg", "alt":"C#", "class":"c-color"},
+					{"title":"Curl", "image":"images/curl.svg", "alt":"CURL", "class":"curl-color"},
+					{"title":"DJANGO", "image":"images/django.svg", "alt":"DJANGO", "class":"django-color"},
+					{"title":"GO", "image":"images/go.svg", "alt":"GO", "class":"go-color"},
+					{"title":"JAVA", "image":"images/java.svg", "alt":"JAVA", "class":"java-color"},
+					{"title":"Node.JS", "image":"images/node (1).svg", "alt":"NODEJS", "class":"nodejs-color"},
+					{"title":"PHP", "image":"images/php.svg", "alt":"PHP", "class":"php-color"},
+					{"title":"PYTHON", "image":"images/python.svg", "alt":"PYTHON", "class":"python-color"}
+				]
+			}
+		]
+	},
+	"dLinks":[
+		{
+			"heading":"Getting Started", "class":"success",
+			"links":[
+				{"title":"How it works", "desc":"New to ENOA ? This guid will help you understand how ENOA works and what you can do with it."},
+				{"title":"Quick Start", "desc":"Create an account and set up your first basic search in few minutes."}
+			]
+		},
+		{
+			"heading":"Indexing", "class":"info",
+			"links":[
+				{"title":"Formatting you data", "desc":"Learn how to organize your indices and to format the attributes of your records."},
+				{"title":"Import adnd synchronize your data.", "desc":"How and when you push your data in ENOA servers."}				
+			]
+		},
+		{
+			"heading":"Search", "class":"warning",
+			"links":[
+				{"title":"Auto-Complete", "desc":"Use our autocomplete.js library to build a search dropdown."},
+				{"title":"Instant Search Result Page", "desc":"Use our web and mobile front-end libraries to build an Instant Search result page."},
+				{"title":"Filtering & Faceting", "desc":"Add filters to your search using Facets, Tags, or Numeric Filters."},
+				{"title":"Multilingual Search", "desc":"Your site or app has multiple languages? Learn how to configure Algolia to handle that."},
+				{"title":"Distinct", "desc":"Discover distinct, a feature deduplicating results that share a common attribute."},
+				{"title":"Dropdown In a Textarea", "desc":"Learn how to create a @mention, #hashtag feature like the one on Twitter, Facebook..."},
+				{"title":"Infinite Scroll", "desc":"Create visual search results that load new items as you scroll."}
+			]
+		}
+	],
+	"dLinks2":[
+		{
+			"heading":"Platforms", "sHeading":"Platforms sub", "desc":"This integeration can recieve data from following resources.", "class":"danger","dClass":"col-md-4",
+			"links":[
+				{"title":"Browser", "icon":"fa-bullhorn", "desc":"analytics.js library"},
+				{"title":"Server", "icon":"fa-laptop", "desc":"any of server side libraries."},
+				{"title":"Mobile", "icon":"fa-mobile", "desc":"our ios and android libraries."}
+			],
+			"buttons":[ {"class":"doc-methhod", "title":"More on Methods"} ]
+		},
+		{
+			"heading":"Methods", "sHeading":"Methods sub", "desc":"Each methods describe a distinct type of information about a customer.", "class":"info","dClass":"col-md-6",
+			"links":[
+				{"title":"Identify", "icon":"fa-bullhorn", "desc":"The identify call ties a customer and their actions to a recognizable id and traits their like emails."},
+				{"title":"Server", "icon":"fa-laptop", "desc":"The track API call is how you record any action your user performs, along with any properties that descrive the action."}
+			],
+			"buttons":[ {"class":"doc-btn", "title":"Libraries Documentation"} ]
+		}
 	]
+
 }
