@@ -1,0 +1,26 @@
+{
+	"menu":{
+		"heading":"GETTING STARTED",
+		"list":[
+			{"title":"Introduction", "tab":"tab-intro"},
+			{"tab":"tab_b", "title":"Auto Complete Menu"}, 
+			{"tab":"tab_c", "title":"Synching Data"}, 
+			{"tab":"tab_d", "title":"Search Networks"}
+		]
+	},
+	"tabs":[
+		{
+			"id":"tab-intro",
+			"include":"views/workflow/partials/tab-intro.html",
+			"data":{
+				"heading":"Whats is ENOA?"
+			}
+		}
+	]
+}
+
+
+
+
+
+
